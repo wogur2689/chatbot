@@ -1,0 +1,72 @@
+@charset "UTF-8";
+body {
+    height: 1000px;
+    background: -webkit-linear-gradient(yellowgreen, green);
+}
+#main {
+    width: 100%;
+    text-align: center;
+}
+img {
+    width: 250px;
+    height: 270px;
+}
+input {
+    display: block;
+}
+#chatBot {
+    display: inline-block;
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+}
+#message {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 40px;
+    border: solid black 1px; 
+    border-radius: 20px;
+    width: 600px;
+    height: 200px;
+    line-height: 200px;
+    font-size: 30px;
+    background: -webkit-linear-gradient(skyblue,blue);
+}
+.bot {
+    margin-bottom: 40px;
+}
+.chatBox{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#console {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    width: 550px;
+    height: 30px;
+}
+#btn {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 50px;
+    border:black solid 1px;
+    background: -webkit-linear-gradient(yellow, orange);
+    cursor: pointer;
+    font-size: 30px;
+    color: black;
+}
+#btn:hover {
+   border:skyblue solid 1px;
+}
+#typing {
+    font-size: 20px;
+    font-weight: bold;
+}
